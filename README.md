@@ -60,7 +60,21 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Demonstrate your understanding of this week's concepts by answering the following questions:
 
 1. What is the DOM?
+
+Document Object Model = Javascript Object containing every element in order on the page. Bridges the gap between HTML and Javascript. It's a programming interface allowing the use of javascript to change the document structure, style , and content.
+
 2. What is an event?
+
+An event is the interactivity on our pages. Javascript allows us to add dynamic content such as onclicks, scrolls and other events to make our page more engaging.
+
 3. What is an event listener?
+
+An event listener is a method we can run on a selected element to create an event for the element. You would typically use `.addEventListener` taking two arguments, the type of event and the function to run after event has been done.
+
 4. Why would we convert a NodeList into an Array?
+
+We would convert a NodeList into an array when are using `querySelectorAll` in order to access individual elements inside the multiple element selector.
+
 5. What is a component?
+
+A component is when HTML, CSS, and Javascript are brought together for reuse in a website or application.

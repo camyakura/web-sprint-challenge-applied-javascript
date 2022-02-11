@@ -58,10 +58,10 @@ const cardAppender = (selector) => {
   //
   axios.get(`http://localhost:5000/api/articles`)
     .then(resp => {
-      console.log(resp)
+      // console.log(resp)
       const entryPoint = document.querySelector(selector);
       const article = Object.values(resp.data.articles).flat();
-      console.log(article);
+      // console.log(article);
       for (let i = 0; i < article.length; i++){
         const card = Card(article[i]);
         entryPoint.appendChild(card);
