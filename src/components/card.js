@@ -40,7 +40,7 @@ const Card = (article) => {
   image.src = article.authorPhoto;
   authorName.textContent = article.authorName;
 
-  card.addEventListener('click', event => {
+  card.addEventListener('click', () => {
     console.log(headLine);
   })
 

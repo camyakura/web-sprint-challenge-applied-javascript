@@ -73,7 +73,7 @@ An event listener is a method we can run on a selected element to create an even
 
 4. Why would we convert a NodeList into an Array?
 
-We would convert a NodeList into an array when are using `querySelectorAll` in order to access individual elements inside the multiple element selector.
+We would convert a NodeList into an array when are using `querySelectorAll` in order to access individual elements inside the multiple element selector. Like when we can loop with a forEach() to add attributes to each of our selected elements.
 
 5. What is a component?
 
