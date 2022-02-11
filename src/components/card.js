@@ -38,6 +38,11 @@ const Card = (article) => {
   image.src = article.authorPhoto;
   authorName.textContent = article.authorName;
 
+  card.addEventListener('click', event => {
+    console.log(headLine)
+  })
+
+  return card;
 }
 
 const cardAppender = (selector) => {
